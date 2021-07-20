@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+}
+
+#home {
+    background-image: url("Rocket.jpg");
+    height: 730px;
+    background-size: cover;
+}
+
+.hding {
+    padding-top: 35%;
+    font-size: 100px;
+    font-family: 'Lobster', cursive;
+}
+
+img {
+    height: 300px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: 7.2%;
+    z-index: 30;
+    cursor: pointer;
+    background: black;
+    line-height: 55px;
+}
+
+.links {
+    display: inline;
+    padding: 20px;
+    font-weight: bold;
+    line-height: 5px;
+    height: 2px;
+}
+
+.links:hover {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+#slide {
+    background-color: yellow;
+}
